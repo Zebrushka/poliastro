@@ -74,6 +74,7 @@ __all__ = [
     "R_neptune",
     "R_pluto",
     "R_moon",
+    "R_enceladus",
     "R_polar_earth",
     "R_polar_mercury",
     "R_polar_venus",
@@ -466,7 +467,17 @@ R_moon = Constant(
     "IAU Working Group on Cartographic Coordinates and Rotational Elements: 2015",
     system="si",
 )
-
+###################################################################################
+R_enceladus = Constant(
+    "R_enceladus",
+    "enceladus equatorial radius",
+    252100,
+    "m",
+    0,
+    "The interior of Enceladus. Univ. of Arizona, DOI: 10.2458/azu_uapress_9780816537075-ch004",
+    system="si",
+)
+###################################################################################
 R_polar_earth = Constant(
     "R_polar_earth",
     "Earth polar radius",
