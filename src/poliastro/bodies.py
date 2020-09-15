@@ -283,11 +283,11 @@ Moon = Body(
 
 Enceladus = Body(
     parent=Neptune,
-    k=constants.GM_moon,
+    k=constants.GM_enceladus,
     name="Enceladus",
     symbol="\u263E",
-    R=constants.R_moon,
-    R_mean=constants.R_mean_moon,
-    R_polar=constants.R_polar_moon,
-    rotational_period=constants.rotational_period_moon,
+    R=constants.R_enceladus,
+    #R_mean=constants.R_mean_moon,
+    #R_polar=constants.R_polar_moon,
+    rotational_period=constants.rotational_period_enceladus,
 )

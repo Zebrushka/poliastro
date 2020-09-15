@@ -49,7 +49,7 @@ __all__ = [
     "GM_neptune",
     "GM_pluto",
     "GM_moon",
-    #"GM_enceladus",
+    "GM_enceladus",
     "M_earth",
     "M_jupiter",
     "M_sun",
@@ -95,7 +95,6 @@ __all__ = [
     "H0_earth",
     "rho0_earth",
     "Wdivc_sun",
-    "",
 ]
 
 # HACK: sphinx-autoapi variable definition
@@ -244,12 +243,13 @@ GM_moon = Constant(
 
 ##############################################################################
 GM_enceladus = Constant(
-   "Enceladus gravitational constant",
-   7.210443,
-   "m3 / (s2)",
-   0.00000774,
-   "Univ. of Arizona (2018)",
-   system="si",
+    "GM_enceladus",
+    "Enceladus gravitational constant",
+    7.210443,
+    "m3 / (s2)",
+    0.00000774,
+    "Univ. of Arizona (2018)",
+    system="si",
 )
 ##############################################################################
 # Hemingway D., Iess L., Tajeddine R., and Tobie G. (2018)

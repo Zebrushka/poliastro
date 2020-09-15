@@ -112,3 +112,13 @@ rotational_period_pluto = Constant(
     "Vallado, D. and McClain, W. Fundamentals of astrodynamics and applications.",
     system="si",
 )
+
+rotational_period_enceladus = Constant(
+    "rotational_period_enceladus",
+    "enceladus rotational period",
+    27.32166,
+    "d",
+    0,
+    "Vallado, D. and McClain, W. Fundamentals of astrodynamics and applications.",
+    system="si",
+)
