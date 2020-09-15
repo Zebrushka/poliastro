@@ -49,6 +49,7 @@ __all__ = [
     "GM_neptune",
     "GM_pluto",
     "GM_moon",
+    #"GM_enceladus",
     "M_earth",
     "M_jupiter",
     "M_sun",
@@ -93,6 +94,7 @@ __all__ = [
     "H0_earth",
     "rho0_earth",
     "Wdivc_sun",
+    "",
 ]
 
 # HACK: sphinx-autoapi variable definition
@@ -239,10 +241,20 @@ GM_moon = Constant(
     system="si",
 )
 
-# Archinal, B. A., Acton, C. H., A’Hearn, M. F., Conrad, A., Consolmagno,
-# G. J., Duxbury, T., … Williams, I. P. (2018). Report of the IAU Working
-# Group on Cartographic Coordinates and Rotational Elements: 2015. Celestial
-# Mechanics and Dynamical Astronomy, 130(3). doi:10.1007/s10569-017-9805-5
+##############################################################################
+GM_enceladus = Constant(
+   "Enceladus gravitational constant",
+   7.210443,
+   "m3 / (s2)",
+   0.00000774,
+   "Univ. of Arizona (2018)",
+   system="si",
+)
+##############################################################################
+# Hemingway D., Iess L., Tajeddine R., and Tobie G. (2018)
+# The interior of Enceladus. In Enceladus and the Icy Moons of Saturn
+#(P. M. Schenk et al., eds.), pp. 57–77. Univ. of Arizona, Tucson,
+# DOI: 10.2458/azu_uapress_9780816537075-ch004.
 
 R_mean_earth = Constant(
     "R_mean_earth",
